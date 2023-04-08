@@ -19,7 +19,7 @@ app.listen(process.env.PORT, () => {
   console.log("App is running properly");
 });
 
-// request parser
+// request parser  middleware
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
